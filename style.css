@@ -1,0 +1,547 @@
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Barlow&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fraunces&display=swap');
+
+
+body, html{
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+ overflow-x: hidden;
+}
+header{
+    width: 100%;
+    background-color: #3ebfff;
+    height: 80px;
+    display: flex;
+  
+}
+.main{
+    background-color: #3ebfff;
+    width: 100%;
+    height: 798px;
+}
+.div-img{
+  width: 50%;
+height: 80px;
+flex: 1;
+}
+.div-img IMG{
+    margin-left: 5%;
+    width: 150px;
+    margin-top: 30px;
+}
+.div-list{
+    align-items: flex-end;
+    flex: 4;
+    display: flex;
+    justify-content: flex-end;
+}
+.div-list ul{
+    display: inline-block;
+}
+.div-list li{
+    display: inline;
+    margin-right: 30px;
+}
+.div-list a{
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    font-family: 'Barlow', sans-serif;
+    font-weight: 600;
+}
+header button{
+    background-color: white;
+    outline: none;
+    border: none;
+    color: black;
+    width: 150px;
+    height: 50px;
+    border-radius: 20px;
+    font-size: 18px;
+    font-family: 'Barlow', sans-serif;
+    font-weight: 600;
+    cursor: pointer;
+}
+header button:hover{
+    background-color: #35d7ff;
+    color: white;
+    transition: all 0.2s;
+}
+.title{
+    display: flex;
+    justify-content: center;
+    height: 150px;
+}
+.title h1{
+    font-size: 60px;
+    font-family: 'Fraunces', serif;
+    color: white;
+    text-align: center;
+    margin-top: 100px;
+    letter-spacing: 5px;
+    z-index: 1;
+}
+.imgg{
+    width: 100%;
+    height: 100vh;
+    max-height: 800px;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -ms-flex-align: center;
+    align-items: center;
+    padding: 34px 0;
+    background: url('./images/desktop/image-header.jpg') no-repeat bottom center/cover;
+    margin-top: -300px;
+    justify-content: center;
+}
+.imgg button{
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+section{
+    width: 100%;
+    display: grid;
+   grid-template-areas: 
+   "div1 div1 yelloww yelloww"
+    "redd redd div4 div4"
+    "greenn greenn bluee bluee";
+    grid-auto-rows: 800px;
+}
+.div1{
+    justify-self: center;
+    align-self: center;
+    grid-area: div1;
+   
+}
+.div4{
+    justify-self: center;
+    align-self: center;
+    grid-area: div4;
+    
+   
+}
+.yellow{
+    background-image: url('./images/desktop/image-transform.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+background-position: center;
+justify-content: center;
+grid-area: yelloww;
+
+
+}
+.red{
+   background-image: url('./images/desktop/image-stand-out.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+display: flex;
+justify-content: center;
+background-position: center;
+grid-area: redd;
+
+
+}
+.green{
+  background-image: url('./images/desktop/image-graphic-design.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+display: flex;
+background-position: center;
+justify-content: center;
+grid-area: greenn;
+
+}
+.blue{
+    background-image: url('./images/desktop/image-photography.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+justify-content: center;
+background-position: center;
+grid-area: bluee;
+
+}
+.txt-div{
+margin-top: 500px;
+max-width: 350px;
+width: auto;
+}
+.txt-div h2{
+    text-align: center;
+    color: #1b5348;
+    width: auto;
+}
+.txt-div p{
+    text-align: center;
+    color: #1b5348;
+    width: auto;
+   
+}
+.txt-div2{
+margin-top: 500px;
+max-width: 350px;
+width: auto;
+}
+.txt-div2 h2{
+    text-align: center;
+    color: #21576f;
+    width: auto;
+}
+.txt-div2 p{
+    text-align: center;
+    color: #21576f;
+    width: auto;
+}
+.div2-txt{
+    max-width: 400px;
+    width: auto;
+   
+}
+.div2-txt p {
+    
+    width: auto;
+}
+section h2{
+    font-size: 40px;
+    font-family: 'Fraunces', serif;
+font-weight: 900;
+}
+section p{
+    font-size: 18px;
+    font-family: 'Fraunces', serif;
+width: 350px;
+color: gray;
+}
+.div1-txt{
+   width: auto;
+   max-width: 350px;
+}
+.div1-txt p{
+    width: auto;
+}
+.link{
+text-decoration: none;
+color: black;
+font-family: 'Fraunces', serif;
+font-size: 18px;
+margin-top: 30px;
+float: left;
+border-bottom: #f1db5e solid 5px;
+border-bottom-left-radius: 5px;
+border-bottom-right-radius: 5px;
+font-weight: 900;
+
+}
+.link2{
+text-decoration: none;
+color: black;
+font-family: 'Fraunces', serif;
+font-size: 18px;
+ margin-top: 30px;
+float: left;
+ border-bottom: #f1c1bb solid 5px;
+border-bottom-left-radius: 5px;
+border-bottom-right-radius: 5px;
+font-weight: 900;
+    }
+.link:hover{
+    border-bottom: yellow solid 5px;
+}
+.link2:hover{
+ border-bottom: #f54c36 solid 5px;
+}
+.client{
+    display: flex;
+    justify-content: center;
+    margin-top: 150px;
+}
+.client h2{
+    color:#ababab;
+font-family: 'Fraunces', serif;
+letter-spacing: 5px;
+}
+.profiles{
+    display: flex;
+    width: 80%;
+    margin-left: 10%;
+    height: 300px;
+
+ margin-top: 50px;
+}
+.profile1, .profile2, .profile3{
+justify-self: center;
+    margin: 10px;
+    text-align: center;
+    font-family: 'Barlow', sans-serif;
+color: black;
+
+}
+
+.profile1 img{
+    width: 100px;
+    border-radius: 100px;
+
+}
+.profile2 img{
+    width: 100px;
+    border-radius: 100px;
+
+}
+.profile3 img{
+    width: 100px;
+    border-radius: 100px;
+}
+.profiles h3{
+    font-size: 15px;
+    color: gray;
+}
+.profiles p{
+    font-size: 19px;
+}
+.photos{
+    display: grid;
+    width: 100%;
+  grid-template-columns: repeat(4, 1fr);
+  grid-auto-rows: 600px;
+margin-top: 100px;
+}
+.img1{
+    background-image: url('./images/desktop/image-gallery-milkbottles.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.img2{
+    background-image: url('./images/desktop/image-gallery-orange.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.img3{
+    background-image: url('./images/desktop/image-gallery-cone.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.img4{
+    background-image: url('./images/desktop/image-gallery-sugarcubes.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+footer{
+    width: 100%;
+    background-color: #90d4c5;
+    height: 350px;
+}
+.logo{
+    display: flex;
+    justify-content: center;
+ 
+}
+.logo img{
+  margin-top: 80px;
+  width: 200px;
+  filter: invert(66%) sepia(29%) saturate(729%) hue-rotate(118deg) brightness(100%) contrast(93%);
+}
+.list{
+    display: flex;
+    justify-content: center;
+}
+.list ul{
+    display: inline-block;
+    margin-top: 40px;
+}
+.list li{
+    display: inline;
+    margin-right: 40px;
+}
+.list a{
+    text-decoration: none;
+    font-size: 20px;
+    color: #1b5348;
+}
+.list-icon{
+    display: flex;
+    justify-content: center;
+}
+.list-icon ul{
+    display: inline-block;
+    margin-top: 50px;
+    margin-left: -1%;
+}
+.list-icon li{
+    display: inline;
+    margin-right: 30px;
+}
+.list a:hover{
+    color: white;
+    transition: all 0.5s;
+}
+.list-icon a:hover{
+    filter: invert(100%) sepia(25%) saturate(0%) hue-rotate(292deg) brightness(203%) contrast(110%);
+    transition: all 0.5s; 
+}
+.mobile-menu{
+display: none;
+}
+.flexao{
+display: flex;
+}
+
+.nonee{
+    display: none;
+}
+.lista-mobile{
+    display: none;
+}
+@media screen and (max-width:800px) {
+    .div-list{
+    display: none;
+    }
+    .mobile-menu {
+    display: flex;
+    width: 50%;
+     align-self: center;
+    padding-right: 20px;
+    justify-content: flex-end;
+    
+    }
+    .mobile-menu img{
+    width: 40px;
+    cursor: pointer;
+    }
+    .menu{
+    width: 350px;
+    height: 300px;
+    background-color: white;
+    position: absolute;
+    right: 20px;
+    top: 100px;
+    z-index: 9999;
+    justify-content: center;
+
+    }
+    .menu::after{
+    content: '';
+    position: absolute;
+    top: -24px;
+    right: 0px;
+    width: 24px;
+    height: 24px;
+    background-position: bottom right;
+    background-size: contain;
+    background-image: url('./images/ponta.svg');
+    }
+    .menu a{
+        font-size: 20px;
+        text-decoration: none;
+        color: gray;
+        font-weight: 900;
+    }
+    .menu li{
+        list-style: none;
+        margin-top: 30px;
+    }
+    .menu button{
+        margin-left: -40PX;
+        background-color: #f1db5e;
+    }
+   .lista-mobile{
+       display: block;
+   }
+  
+  .title h1{
+      font-size: 40px;
+      margin-top: 150px;
+  }
+  .div1-txt h2{
+font-size: 30px;
+  }
+  .div1-txt p{
+      font-size: 15px;
+  }
+  .div1-txt{
+      width: auto;
+    }
+    .div2-txt h2{
+font-size: 30px;
+    }
+.div2-txt p{
+font-size: 15px;
+    }
+    .div2-txt{
+    width: auto;
+        }
+    .imgg{
+        width: 100%;
+      height: 100%;
+     margin-top:183px;
+
+    }
+    .main{
+        height: 600px;
+    }
+    section{
+    grid-template-areas: 
+    "yelloww yelloww yelloww yelloww"
+    "div1 div1 div1 div1"
+    "redd redd redd redd"
+    "div4 div4 div4 div4"
+    "greenn greenn greenn greenn"
+    "bluee bluee bluee bluee";
+    grid-auto-rows: 500px;
+}
+.yellow{
+    background-image: url('./images/mobile/image-transform.jpg');
+}
+.red{
+    background-image: url('./images/mobile/image-stand-out.jpg');
+}
+.div1{
+    text-align: center;
+}
+.div4{
+    text-align: center;
+}
+.div4 a{
+    margin-left: 32%;
+}
+.div1-txt a{
+    margin-left: 32%;
+}
+.txt-div{
+    margin-top: 250px;
+}
+.txt-div2{
+    margin-top: 250px;
+}
+.client h2{
+    font-size: 25px;
+    margin-top: -50px;
+}
+.profiles{
+    flex-direction: column;
+    height: auto;
+}
+.photos{
+    grid-template-columns: repeat(2, 1fr);
+    grid-auto-rows: 250px;
+}
+}
+@media screen and (max-width:400px) {
+    .client h2{
+        font-size: 18px;
+    }
+    footer .list li{
+margin-right: 30px;
+    }
+    .list ul{
+        margin-left: -10px;
+    }
+}
+
